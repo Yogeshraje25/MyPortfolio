@@ -1,0 +1,324 @@
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.box{
+    background-color: black;
+    height: 100vh;
+
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+     
+}
+.logo{
+    color: white;
+    font-size:48px;
+    font-weight: 900; 
+    margin: 5px;
+    padding: 10px;
+}
+.r{
+    color: aqua;
+    font-size:58px;
+}
+.nav ul{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    
+}
+.nav ul li{
+    list-style:none;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.nav ul a:hover{
+    color: aqua;
+    font-weight: 600;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.intro > span{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.intro > span:nth-child(2){
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.btn{
+    margin: 30px 10px;
+    padding: 0px 20px;
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+.social-icon{
+    margin-top: 30px;
+    font-size: 30px;
+}
+ 
+.social-icon a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.social-icon a:hover, a:active{
+    color: aqua;
+    font-size: 31px;
+}
+.btn1{
+    display: inline-block;
+    padding: 0%;
+    margin: 2px;
+    
+}
+.btn:first-child{
+    background-color: white;
+}
+.about{
+    height: 110vh;
+    width:100%;
+    background-color:black;
+    
+}
+#about{
+    display: flex;
+}
+ 
+#img1{
+    height: 100vh;
+    width:50vw;
+     
+}
+ 
+ 
+h1{
+    font-size: 58px;
+    color: aqua;
+    
+    margin-left: 45%;
+     
+
+}
+ 
+.about1{
+    width: 50%;
+    
+}
+.content{
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left:10px;
+     
+}
+.services{
+    height:110vh;
+    width:100vw;
+    background-color: black;
+}
+ 
+#heading1{
+     padding-top: 50px;
+    font-size: 58px;
+    font-weight: 500;
+
+     
+
+}
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ .services1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .s{
+    height: 325px;
+    width:470px;
+    margin-top: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 4px 2px 4px aqua;
+ }
+ 
+ 
+ .s h3{
+    margin-top: 50px;
+    margin-left: 10px;
+    color:white;
+    font-size: 24px;
+ }
+ .s p{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+     
+ }
+ .s i{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: aqua;
+     
+    font-size: 58px;
+ }
+ .btnservices{
+    background-color: aqua;
+    border: 2px solid black;
+    color: black;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+ }
+ .my-work{
+    height: 100vh;
+    width:100vw;
+    background-color: black;
+ }
+ .work{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+     
+ }
+ .card{
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 4px 2px 4px aqua;
+    height: 550px;
+    width: 400px
+ }
+ .card h3{
+    margin-top: 20px;
+    margin-left: 10px;
+    color:aqua;
+    font-size: 30px;
+ }
+ 
+ .card img{
+
+    height:200px;
+    width:400px;
+ }
+ .contact{
+    height: 100vh;
+    width:100vw;
+    background-color: black;
+ }
+ .contactus {
+    display:flex;
+ }
+    
+ 
+ .left{
+    width:50%;
+    padding-top: 200px;
+    align-content: center;
+    justify-content: center;
+     
+ }
+  .left h3{
+    color: aqua;
+    font-size: 34px;
+    margin-left: 100px;
+  }
+  .mail, .phone{
+    display: flex;
+     
+  }
+  .mail i  {
+    color: aqua;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 30px;
+  }
+  .phone i{
+    color: aqua;
+    font-size: 20px;
+    margin-left: 30px ;
+    margin-top: 20px;
+    
+  }
+    .phone h4{
+
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .mail h4{
+    margin-top: 80px;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .left .social-icon{
+    margin-left: 30px;
+  }
+  form{
+    display:inline-block;
+    margin-top: 200px;
+
+  }
+  form input{
+    padding: 0;
+    border:2px solid black;
+    border-radius: 5px;
+    width:100%;
+    margin:10px;
+    height:40px;
+  }
+   input:nth-child(3){
+    height: 150px;
+  }
+  .btnform{
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 30px;
+    cursor:pointer
+  }
+   
