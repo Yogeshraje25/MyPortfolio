@@ -1,0 +1,428 @@
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+     
+     
+}
+html{
+
+   
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: black;
+    height: 100%;
+    width: 100vw;
+    padding-bottom: 5rem;
+
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+     
+    background-color: black;
+    width: 100vw;
+    height: 9rem;
+     
+     
+}
+.logo{
+    color: white;
+    font-size:4.8rem;
+    font-weight: 900; 
+     
+    padding-left: 1rem;
+}
+.r{
+    color: aqua;
+    font-size:5.8rem;
+}
+.nav ul{
+    display: flex;
+    margin: .5rem;
+    padding: 1rem;
+    
+}
+.nav ul li{
+    list-style:none;
+    margin: 1rem;
+    padding: 2rem;
+    
+}
+.nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem;
+}
+.nav ul a:hover{
+    color: aqua;
+    font-weight: 600;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    float: right;
+    color: white;
+    font-size: 4.8rem;
+    padding: 3rem;
+    cursor: pointer;
+    display: none;
+}
+ 
+ 
+ 
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30rem;
+      
+}
+.intro > span{
+    color: white;
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+ .intro h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 5rem;
+ }
+ .intro h3 span{
+    color: aqua;
+    font-weight: 900;
+     
+ }
+.btn{
+    margin: 3rem 1rem;
+    padding: 0rem 2rem;
+    font-size: 2.4rem;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 1rem;
+    border: .2rem black solid;
+}
+.social-icon{
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+ 
+.social-icon a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+}
+.social-icon a:hover, a:active{
+    color: aqua;
+    font-size: 3.1rem;
+}
+.btn1{
+    display: inline-block;
+    padding: 0%;
+    margin: .2rem;
+    
+}
+.btn:first-child{
+    background-color: white;
+}
+.about{
+    height: 100%;
+    width:100vw;
+    background-color:black;
+    
+}
+#about{
+     
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+.coderimg{
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+     
+    
+}
+ 
+#img1{
+     
+     display: block;
+     margin: auto;
+    
+    height: 50rem;
+    width:50rem;
+    border-radius: 50%;
+    border: .2px solid black;
+    justify-content: center;
+
+     
+}
+ 
+ 
+h1{
+    font-size: 5.8rem;
+    color: aqua;
+    margin: 0rem 40% 0rem 40%;
+     
+     
+
+}
+ 
+.about1{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+.content{
+    height:100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+p{
+    color: white;
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 1rem;
+     
+}
+.services{
+    height:100%;
+    width:100vw;
+    background-color: black;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    justify-content: center;
+
+}
+ 
+#heading1{
+     padding-top: 5rem;
+    font-size: 5.8rem;
+    font-weight: 500;
+
+     
+
+}
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ .services1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ .s{
+    height: 32.5rem;
+    width:45rem;
+    margin-top: 15rem;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    box-shadow: .2rem .4rem .2rem .4rem aqua;
+ }
+ 
+ 
+ .s h3{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    color:white;
+    font-size: 2.4rem;
+ }
+ .s p{
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+     
+ }
+ .s i{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color: aqua;
+     
+    font-size: 5.8rem;
+ }
+ .btnservices{
+    background-color: aqua;
+    border: .2rem solid black;
+    color: black;
+    border-radius: 3rem;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+ }
+ .my-work{
+    height: 100%;
+    width:100vw;
+    background-color: black;
+ }
+ .work{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+     
+ }
+ .card{
+    margin-top: 6rem;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    box-shadow: .2rem .4rem .2rem .4rem aqua;
+    height: 55rem;
+    width: 40rem
+ }
+ .card h3{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color:aqua;
+    font-size: 3rem;
+ }
+ 
+ .card img{
+
+    height:20rem;
+    width:40rem;
+ }
+ .contact{
+    height: 100%;
+    width:100vw;
+    background-color: black;
+ }
+ .contactus {
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+ }
+    
+ 
+ .left{
+    width:50vw;
+    padding-top: 20rem;
+    align-content: center;
+    justify-content: center;
+     
+ }
+  .left h3{
+    color: aqua;
+    font-size: 3.4rem;
+    margin-left: 10rem;
+  }
+  .mail, .phone{
+    display: flex;
+     
+  }
+  .mail i  {
+    color: aqua;
+    font-size: 2rem;
+    margin-top: 8rem;
+    margin-left: 3rem;
+  }
+  .phone i{
+    color: aqua;
+    font-size: 2rem;
+    margin-left: 3rem ;
+    margin-top: 2rem;
+    
+  }
+    .phone h4{
+
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .mail h4{
+    margin-top: 8rem;
+    color: white;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  .left .social-icon{
+    margin-left: 3rem;
+  }
+  form{
+    display:inline-block;
+    margin-top: 20rem;
+
+  }
+  form input{
+    padding: 0;
+    border:.2rem solid black;
+    border-radius: .5rem;
+    width:100%;
+    margin:1rem;
+    height:4rem;
+  }
+   input:nth-child(3){
+    height: 15rem;
+  }
+  .btnform{
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    height: 4rem;
+    border: .2rem solid black;
+    border-radius: 2.5rem;
+    margin-top: 3rem;
+    cursor:pointer
+  }
+ @media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    #img{
+        height:30rem;
+        width:30rem
+    }
+     
+ }
+ @media(max-width:844px){
+    html{
+        font-size: 45%;
+    }
+    #img{
+        height:20rem;
+        width:20rem
+    }
+     
+    
+ }
+ @media(max-width:700px){
+    html{
+        font-size: 35%;
+    }
+    #img{
+        height:20rem;
+        width:20rem
+    }
+     
+     
+    
+ }
